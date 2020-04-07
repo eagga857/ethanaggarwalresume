@@ -1,0 +1,88 @@
+:root {
+    --bar: #68b8d1;    
+    --white: white;
+    --grey: #ddd;
+    --hover: #4f8da0;
+    --sections: #a7bcc2;
+    --background: #53f1f1;
+  }
+
+  body{
+    font-family: 'Georgia';    
+    
+  }
+
+  .menuBar{
+    width: 100%;
+  }
+
+  .menuItem {
+    overflow: hidden;
+    background-color: var(--bar);
+  }
+  
+  .menuItem a {
+    float: left;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    color: var(--white);
+  }
+
+.menuItem a:hover {
+    background-color: var(--hover);
+    color: var(--white);
+  }
+
+  .main{
+    margin-top: 10px;
+  }
+
+.container{
+    padding: 30px;
+    background-color: var(--sections);
+    margin-top: 15px;
+}
+
+p{
+  text-indent: 50px;
+}
+
+#resume{
+    height: 800px;
+    width: auto;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 180px center;
+    background-image: url("resume.jpg");
+
+  }
+
+  .formContainer {
+    text-align: center;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  #formItem {
+    padding: 5px;
+    background-color: var(--grey);
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+
+  footer{
+    background-color: var(--bar);
+    color: var(--white);
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 5px;
+  }
+  
+  
