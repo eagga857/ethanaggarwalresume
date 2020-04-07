@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="My Information">
+    <meta name="keywords" content="Resume,Hobbies,Contact,Hiring">
+    <meta name="author" content="Ethan Aggarwal">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+    </script>
+
+</head>
+
+<body>
+    <div class="menuBar">
+        <header>
+            <div class="menuItem">
+                <a href=#resume>Resume</a>
+                <a href=#video>Personal Video</a>
+                <a href=#contactMe>Contact Me</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="main">
+        <div class="container" id="resume">
+            <div>
+                <h1><a>Resume</a></h1>
+                <p>This is my resume which shows all of my current work experience along with some basic information
+                    about me. While I don't have large amounts of work experience at different jobs, I do have a decent
+                    level of experience in multiple differing sectors.
+                </p>
+                <iframe src="images/EthanAggarwalResume.pdf" width="100%" height="625px"></iframe>
+            </div>
+        </div>
+
+        <div class="container" id="video">
+            <div>
+                <h1><a>Personal Video</a></h1>
+                <p>While many people enjoy going for walks in nature or hiking through mountains, I personally prefer
+                    walking and going on jogs through more urban areas. One of my favourite places to go for jogs is by
+                    the river downtown, there are numerous shops and parks to go past and always has something going on.
+                </p>
+            </div>
+            <div>
+
+                <video poster="images/Skyline.png" controls width=100% height=100%>
+                    <source src="images/Skyline.mp4" type='video/mp4'>
+                </video>
+
+            </div>
+        </div>
+
+        <div class="container" id="contact">
+            <div>
+                <h1><a>Contact Me</a></h1>
+                <p>Here is a form to contact me if you have any further inquiries about any
+                    information on this website. You can also feel free to contact me regarding anything about my
+                    schooling or experince, as I will be happy to answer any and all questions.
+
+                </p>
+            </div>
+            <div id="contactMe" class="formContainer">
+                <form method="post" action="index.html">
+                    <div>
+                        <div id="formItem">
+
+                            <label> Name:
+                                <input name="fullname" type="text" size="25" maxlength="20">
+                            </label>
+
+                        </div>
+                        <br>
+                        <div id="formItem">
+
+                            <label> Email:*
+                                <input name="email" type="text" size="25" maxlength="50"
+                                    placeholder="exampleemail@gmail.com" required>
+                            </label>
+
+                        </div>
+                        <br>
+                        <div id="formItem">
+                            <label> Question:
+                                <input name="question" type="text" size="25" maxlength="500">
+                            </label>
+                        </div>
+                        <br>
+                    </div>
+                    <form>
+                        <input class="submit" type="submit" value="Submit" action="index.html">
+                    </form>
+                </form>
+            </div>
+        </div>
+        <footer>&copy Ethan Aggarwal 2020</footer>
+    </div>
+
+</body>
